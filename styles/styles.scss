@@ -24,9 +24,9 @@
 }
 
 .light-mode{
-    --color-primary: #e6f1ff;
+    --color-primary: #ffffff;
     --color-secondary: #00eeff;
-    --color-white: #454e56;
+    --color-white: #262a2e;
     --color-black: #000;
     --color-grey0: #f8f8f8;
     --color-grey-1: #6c7983;
@@ -40,7 +40,7 @@
 body{
     background-color: var(--color-primary);
     font-family: "Poppins", sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.09rem;
     color: var(--color-white);
     transition: all .4s ease-in-out;
 }
@@ -229,6 +229,7 @@ section{
         p{
             margin: 1.5rem 0;
             line-height: 2rem;
+            text-align: left;
         }
     }
 }
@@ -437,7 +438,7 @@ section{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
-    margin-top: 8rem;
+    margin-top: 2rem;
     .portfolio-item{
         position: relative;
         border-radius: 15px;
@@ -509,8 +510,8 @@ section{
 .blogs{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10rem;
-    margin-top: 10rem;
+    grid-gap: 7rem;
+    margin-top: 5rem;
     justify-content: center;
     .blog{
         position: relative;
@@ -600,6 +601,7 @@ section{
         .contact-icon{
             display: flex;
             margin-top: 2rem;
+            justify-content: center;
             a{
                 display: flex;
                 align-items: center;
